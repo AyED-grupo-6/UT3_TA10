@@ -1,4 +1,4 @@
-package uy.edu.ucu.aed;
+package ut3ta6;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

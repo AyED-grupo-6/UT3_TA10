@@ -1,0 +1,10 @@
+Parte 2 y 3
+
+Al hacer la implementacion utilizando una LinkedList los metodos al nivel del directorio practicamente no cambian, siguen siendo los mismos que si utilizaramos la clase Lista desarrollada en clase.
+
+Punto3
+
+El linkedlist de java cosume un poco mas de memoria ya que utiliza TDAs y no tipos espesificos como la lista simplemente encadenada que desarrollamos en clase que soporta un tipo espesifico haciendo que consuma un poco menos de memoria. 
+ademas el linked list de java tiene una referencia al nodo siguiente y al anterior haciendo que consuma mas memoria que la lista simplemente encadenada en clase.
+
+

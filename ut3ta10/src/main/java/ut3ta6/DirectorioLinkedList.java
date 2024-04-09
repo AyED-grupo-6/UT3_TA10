@@ -91,16 +91,21 @@ public class DirectorioLinkedList {
     public static void main(String[] args) {
 
         DirectorioLinkedList d = new DirectorioLinkedList();
-        String[] archivo = ManejadorArchivosGenerico.leerArchivo("src\\main\\java\\uy\\edu\\ucu\\aed\\suc2.txt");
+        String[] archivo = ManejadorArchivosGenerico.leerArchivo("suc2.txt");
 
         for (String string : archivo) {
             d.agregar(string);
         }
 
-        d.quitarSucursal("Shenzhen");
+        /*
+         * d.quitarSucursal("Shenzhen");
+         */ d.quitarSucursal("Tokio");
+        System.out.println(d.litarSucursales());
+        System.out.println(d.cantidadDeSucursales());
+
         d.quitarSucursal("Tokio");
         System.out.println(d.litarSucursales());
-        // System.out.println(d.cantidadDeSucursales());
+        System.out.println(d.cantidadDeSucursales());
 
         // System.out.println(d.litarSucursales(";_"));
         // System.out.println(d.cantidadDeSucursales());
